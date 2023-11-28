@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MED</title>
+    <style>
+    .container{
+        width: 100%;
+        background: beige;
+        margin:0 auto;
+        border-radius: 18px;
+     }
+     .top{
+        margin-top: 30px;
+     }  
+     .menu {
+        float:right;
+        font-size: 18px;
+        line-height: 0 10px;
+        text-transform: uppercase;
+        width: max-content;
+        
+     }
+     .menu li{
+        display: inline-block;
+     }
+     .menu a{
+        color: black;
+        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 3px;
+     }
+     menu a:hover{
+        padding: 8px 12px;
+        border-radius: 3px;
+     }
+     menu a:hover{
+        background: #339FFF;
+        transition: 0.5s;
+     }
+     .col{
+        width: 265px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: justify;
+        padding: 45px;
+     }
+     .col h2{
+        color: 339FFF;
+     }
+     .row{
+        text-align: center;
+     }
+     .footer{
+        overflow: hidden;
+     }
+     .footer a{
+        color: black;
+        text-decoration: none;
+     }
+     .footer span{
+        float: left;
+        text-decoration: black;
+        margin-top: 10px;
+        margin-left: 45px;
+     }
+     body{
+  background: #3399ff;
+    }
+    .toggle{
+        color: white;
+        background: none;
+        border: none;
+        font-size: 30px;
+        padding: 0 20px;
+        line-height: 60px;
+
+        display: none;
+    }
+    @media (max-width: 768px) {
+      
+
+    }
+    
+
+    .circle{
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: ripple 15s infinite;
+  box-shadow: 0px 0px 1px 0px #508fb9;
+    }
+
+    .small{
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  bottom: -100px;
+    }   
+
+    .medium{
+  width: 400px;
+  height: 400px;
+  left: -200px;
+  bottom: -200px;
+    }
+
+    .large{
+  width: 600px;
+  height: 600px;
+  left: -300px;
+  bottom: -300px;
+    }
+
+    .xlarge{
+  width: 800px;
+  height: 800px;
+  left: -400px;
+  bottom: -400px;
+    }
+
+    .xxlarge{
+  width: 1000px;
+  height: 1000px;
+  left: -500px;
+  bottom: -500px;
+    }
+
+    .shade1{
+  opacity: 0.2;
+    }
+    .shade2{
+  opacity: 0.5;
+    }
+
+    .shade3{
+  opacity: 0.7;
+    }
+
+    .shade4{
+  opacity: 0.8;
+    }
+
+    .shade5{
+  opacity: 0.9;
+}
+
+@keyframes ripple{
+  0%{
+    transform: scale(0.8);
+  }
+  
+  50%{
+    transform: scale(1.2);
+  }
+  
+  100%{
+    transform: scale(0.8);
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/zyro-image.jpg" height="120" width="240"  alt="">
+            <button class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="menu top">
+                <li><a href="" hrfe="#">Inicio</a></li>
+                <li><a href="" hrfe="#">Registro</a></li>
+                <li><a href="" hrfe="#">Nadador</a></li>
+                <li><a href="" hrfe="#">Agenda</a></li>
+                <li><a href="" hrfe="#">Paquetes</a></li>
+                <li><a href="" hrfe="#">Profesor</a></li>
+            </ul>
+        </div>
+        <img src="img/Club2.jpeg" height="230" width="100%" alt="">
+        <div class="row">
+            <div class="col">
+                <h2>Quienes Somos</h2>
+                <img src="img/Quienes somos.jpg" height="120" width="320" alt="">
+                <p>El "CLUB DEPORTIVO DRAGONES MARINOS", 
+                    es una organización deportiva de derecho privado, sin ánimo de lucro, 
+                    constituida con el fin de fomentar y
+                     patrocinarla práctica del deporte de Natación,
+                     la recreación y el aprovechamiento del tiempo libre e impulsar
+                      programas de interés publico 
+                     y social, que se regirá por la Ley 181 de 1995 y 
+                     sus normas reglamentarias y por su estatuto.</p>
+            </div>
+            <div class="col">
+                <h2>Misión</h2>
+                <img src="img/Misión.jpg" height="120" width="320" alt="">
+                <p>El Club de Natación Dragones Marinos busca promover la participación de los niños, jóvenes y adultos
+                     a la práctica de la natación y el aprovechamiento del tiempo libre enfocada a mejorar el estilo de vida 
+                     de las personas mediante una metodología consciente para el correcto desarrollo de habilidades y aptitudes deportivas 
+                     sostenibles a largo plazo con la obtención de altos logros a nivel nacional.</p>
+            </div>
+            <div class="col">
+                <h2>Visión</h2>
+                <img src="img/Visión.jpg" height="120" width="320" alt="">
+                <p>El Club de Natación Drogones Marinos se proyecta para el 2027 ser reconocidos a nivel departamental como uno de los mejores clubes de natación carreras enfocados en alto rendimiento. </p>
+            </div>
+        </div>
+        <div class="footer">
+            <span><a href="#">Enlace 1</a> | <a href="#">Enlace 2</a></span>
+            <ul class="menu">
+                <li><a href="" hrfe="#">Inicio</a></li>
+                <li><a href="" hrfe="#">Registro</a></li>
+                <li><a href="" hrfe="#">Paquetes</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
